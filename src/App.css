@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* HOME PAGE STYLING */
+.hero__title {
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    top: 350px;
+    left: 0%;
+    font-family: "Bebas Neue";
+    color: whitesmoke;
+    animation: fadeIn 2s;
+  }
+
+.hero__subtitle {
+    font-size: 80px;
+    opacity: 30%;
+    font-family: "Bebas Neue";
+    text-align: left;
+    position: relative;
+    top: 45px;
+    left: 58%;
+    width: 5%;
+    color: white;
+    animation: fadeInSub 2s;
+    
+  }
+.hero__button {
+    top: 345px;
+    text-align: center;
+    position: relative;
+    font-family: "Bebas Neue";
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; top: 335px; }
+    100% { opacity: 1; top: 345px;}
+  }
+
+@keyframes fadeInSub {
+    0% { opacity: 0; top: 35px; }
+    100% { opacity: 0.25; top: 45px;}
+  }
+
+.navigationbar {
+    font-family: "Bebas Neue";
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("./img/hero.jpg");
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    text-align: left;
+    background-color: (rgba(0, 0, 0, 0));
+    color: (rgba(105, 105, 105, 0.80)) ;
+    font-family: "Bebas Neue";
+    padding: 50px;
+    position: relative;
+    bottom: 0;
+  }
+
+/* SEARCH PAGE */
+
+.search {
+    padding: 40px;
+    width: 20px;
+    font-family: "Oswald";
+}
+
+.searchButton {
+    padding: 40px;
+}
+
+.pageButtons {
+    text-align: center;
+    padding: 10px;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+
+#next {
+    margin-left: 50px;
+    color: white;
+}
+
+#noData {
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+
+.rateLimited {
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+}
+
+.rateLimitDiv {
+    padding-top: 3%;
+}
+
+/* MOVIE PAGE STYLING */
+
+#moviePlot{
+    width: 600px;
+    font-family: "Oswald";
+    font-weight: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movieTitle{
+    font-family: "Bebas Neue";
+    padding-top: 20px;
+}
+
+#yearTitle{
+    padding-top: 10px;
+}
+
+#runtimeTitle{
+    padding-top:10px;
+}
+
+#ratings{
+    font-family: "Bebas Neue";
+    font-weight: 0;
+    padding: 40px;
+}
+
+#genre {
+    padding: 5px;
+    font-family: "Oswald";
+    font-size: medium;
+}
+
+.subtitleData {
+    padding-top: 25px;
+    font-family: "Bebas Neue";
+    padding-bottom: 10px;
+}
+
+.poster{
+    border-radius: 100%;
+}
+
+#movieBackButton {
+    font-family: "Bebas Neue";
+}
+
+.movieErrorButton {
+    text-align: center;
+}
+
+/* LOGIN PAGE STYLING */
+
+.loginInput {
+    padding: 200px;
+    text-align: center;
+    font-family: "Oswald";
+}
+
+.username {
+    padding: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.password {
+    padding: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.confirmPassword{
+    padding: 15px;
+    padding-left: 20.5%;
+    padding-right: 20.5%;
+}
+
+#passalert {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#logout {
+    text-align: center;
+    padding: 60px;
+    padding-top: 20%;
+    font-family: "Bebas Neue";
+}
+
+#logoutButton{
+    font-family: "Bebas Neue";
+
+}
+
+.logoutStyling {
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+/* ACTOR PAGE STYLING */
+
+.notlogged{
+    padding: 300px;
+    font-family: "Bebas Neue";
+    text-align: center;
+    color: "success";
+}
+
+.actorTitle{
+    font-family: "Bebas Neue";
+    padding-top: 25px;
+    padding-left: 7%;
+    padding-bottom: 20px;
+}
+
+
+#imdbTitle {
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Bebas Neue";
+}
+
+.naviagteBack{
+    padding-top: 2px;
+}
+
+/* NOTIFY STYLING */
+
+#alert{
+    font-size: 20px;
+    text-align: center;
+}
+
+.alert{
+    font-family: "Bebas Neue";
+}
