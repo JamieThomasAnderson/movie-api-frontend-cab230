@@ -1,5 +1,5 @@
 # movie-api-frontend-cab230
-CAB230 (Web Computing) is an introductory unit into web-based software systems, giving students practical experience with HTML, CSS and frameworks such as React on the client side and node.js, Express and the node ecosystem on the server side. The project featured in this repository is a [React](https://reactjs.org/), completed in semester 1, 2023, as the second assignment for CAB230.
+CAB230 (Web Computing) is an introductory unit into web-based software systems, giving students practical experience with HTML, CSS and frameworks such as React on the client side and node.js, Express and the node ecosystem on the server side. The project featured in this repository is a [React](https://reactjs.org/) application, completed in semester 1, 2023, as the second assignment for CAB230.
 
 The backend REST API provided for the assessment had multiple authenticated and non-authenticated endpoints, requiring us to manage user tokens on the client side via browser local storage. As UI design was not a significant consideration in the marking criteria, pages are minimalistic, relying heavily on react-bootstrap components. Here are some examples:
 <details>
