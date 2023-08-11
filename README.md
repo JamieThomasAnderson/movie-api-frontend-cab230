@@ -18,21 +18,3 @@ The backend REST API provided for the assessment had multiple authenticated and 
   ![image](https://github.com/JamieThomasAnderson/movie-api-frontend-cab230/assets/96888832/73619365-d6ab-481b-bd1a-d15f05cc578d)
 
 </details>
-
-# Setup
-
-Without access to the backend to make requests, there is little point in running it yourself. But below are the instructions:
-
-### Prerequisites
-
-Install [Node.js and npm](https://nodejs.org/en/download/)
-
-### Installation  
-
-```sh
-git clone https://github.com/JamieThomasAnderson/movie-api-frontend-cab230.git
-cd movie-api-frontend-cab230
-npm install
-npm start
-```
-The application will now be running at http://localhost:3000/
